@@ -27,7 +27,7 @@ const SiteHeader = () => {
           <strong>Category: </strong>
           {course.category}
         </List.Item>
-        <List.Item data-cy="course-onstructors">
+        <List.Item data-cy="course-constructors">
           <strong>Instructors: </strong>
           {course.instructors}
         </List.Item>
@@ -45,7 +45,7 @@ const SiteHeader = () => {
       <Header size="huge" color="orange" textAlign="center">
         <h1 data-cy="header">COURSE LIST</h1>
       </Header>
-      <Menu>
+      <Menu data-cy="sub-header">
         <Menu.Item
           header
           name="Workshops"
